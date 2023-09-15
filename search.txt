@@ -1,0 +1,28 @@
+10 array function
+1 --> array_diff() -> compare the arrays with each other
+2 --> array_merge() -> merge two or more arrays 
+3 --> array_pop() -> remove last element in the array
+4 --> array_sort() -> arrange the array in ascending order 
+5 --> array_reverse() -> بتشقلب الاراي 
+6 --> array_max(),array_min() --> largest , smallest elements in the array
+7 --> array_push() -> push an element at the end of the array 
+8 --> arrag_shift() -> remove the first element in the array and return it 
+9 --> array_search() -> search on specific element in the array
+10 --> array_sum() -> return the sum of total values in the array 
+ ----------------------------------------------------------------------------------
+ //array_map()
+
+ Arguments -> it takes functions and names of the array 
+ it print all the elements of the array using this function like -> array_map(fn($f,$l)=>"Hello mr $f $l",$arrayone,$arraytwo)
+ 
+ //array_filter() 
+
+ Arguments -> it takes the name of the array and take the function 
+ it filter the values of the array using the callback function
+ and we can use array_filter_use_key it filter the array according to  the key of the values not value itself
+ 
+ array_reduce()
+
+ arguments -> it takes array and function and it taks inital value (optional)
+ it reduce the array element to one element 
+ it takes the element one by one like sum & carry
